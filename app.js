@@ -184,13 +184,14 @@ let fizz = [];
 let buzz = [];
 let fizzbuzz =[];
 for (let i = 0; i < nums.length; i ++){
-    if(nums % 3 === 0){ // checks number that are divisible by 3
+     
+    if(nums[i] % 3 === 0){ // checks number that are divisible by 3
         fizz.push(nums[i]); // this method adds those numbers to fizz array
     } 
-    if(nums % 5 === 0){ //checks number that are divisible by 5
-        buzz.push(num[i]); //this method adds those number to buzz array
+    if(nums[i] % 5 === 0){ //checks number that are divisible by 5
+        buzz.push(nums[i]); //this method adds those number to buzz array
     }
-    if(nums % 3 === 0 && nums % 5 === 0){ //checks for both divisible by 3 & 5 
+    if(nums[i] % 3 === 0 && nums[i] % 5 === 0){ //checks for both divisible by 3 & 5 
         fizzbuzz.push(nums[i]); // this method adds those numbers to the fizzbuzz array
     }
 
