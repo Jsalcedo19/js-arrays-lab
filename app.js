@@ -68,7 +68,24 @@ Exercise 6: Replace elements
 
 Complete Exercise 6 in the space below:
 */
+// this method finds the index of "pizza"
 let pizzaIndex = foods.indexOf("pizza");
+// this method replaces "pizza" with "sushi" and "cupcake"
 foods.splice(pizzaIndex, 1, "sushi", "cupcake");
 
 console.log('Exercise 6 result:', foods);
+
+/*
+Exercise 7: Using the `slice()` method
+
+1) Use the `slice()` method to create a new array that contains 'sushi' and 
+   'cupcake'.
+
+2) Assign it to a variable named `yummy`.
+
+Complete Exercise 7 in the space below:
+*/
+let yummy = foods.slice(2, 4);
+
+
+console.log('Exercise 7 result:', yummy);
