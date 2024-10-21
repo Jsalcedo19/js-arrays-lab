@@ -60,3 +60,15 @@ Complete Exercise 5 in the space below:
 foods.splice(1,0,"tufo");
 
 console.log('Exercise 5 result:', foods);
+
+/*
+Exercise 6: Replace elements
+
+1) Replace 'pizza' in the `foods` array with 'sushi' and 'cupcake'.
+
+Complete Exercise 6 in the space below:
+*/
+let pizzaIndex = foods.indexOf("pizza");
+foods.splice(pizzaIndex, 1, "sushi", "cupcake");
+
+console.log('Exercise 6 result:', foods);
